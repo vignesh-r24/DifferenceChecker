@@ -12,5 +12,6 @@ file = open('differences.html', 'w')
 file.write(result)
 file.close()
 
+"""Print the differences in a browser window"""
 webbrowser.open('file://' + os.path.realpath('differences.html'))
 
